@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Video en HTML</title>
+
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #161b22;
+      padding: 20px 0;
+    }
+
+    h1 {
+      color: #58a6ff;
+    }
+
+    video {
+      width: 80%;
+      max-width: 800px;
+      margin-top: 30px;
+      border: 2px solid #58a6ff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #8b949e;
+      font-size: 14px;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🎥 Mi Proyecto con Video</h1>
+  </header>
+
+  <main>
+    <p>Este es un ejemplo de cómo insertar un video MP4 en HTML.</p>
+
+    <!-- Aquí va tu video -->
+    <video controls>
+      <source src="videito.mp4" type="video/mp4">
+      Tu navegador no soporta el video.
+    </video>
+
+    <p>Puedes reemplazar <code>video.mp4</code> por el nombre de tu archivo real.</p>
+  </main>
+
+  <footer>
+    <p>Creado por <a href="https://github.com/araaracarlos77-ship-it" target="_blank">@tuusuario</a></p>
+  </footer>
+</body>
+</html>
+
